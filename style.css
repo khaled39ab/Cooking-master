@@ -1,0 +1,42 @@
+body {
+    background-color: slategray;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px 10px 0 0;
+}
+
+#error-information {
+    display: none;
+    color: red;
+    text-align: center;
+}
+
+#food-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.meal-item {
+    margin: 15px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.meal-item h4 {
+    padding: 20px 0;
+}
+
+.meal-details img {
+    border-radius: 10px;
+    height: 400px;
+    width: auto;
+}
+
+.meal-details ul li i {
+    color: seagreen;
+}
